@@ -22,3 +22,8 @@ Route::get('/about', function () {
     $name = 'Max';
     return view('pages.about', compact('name'));
 })->name('about');
+
+Route::get('/brand', function () {
+    $brandsname = [ 'Apple', 'Samsung', 'Xiaomi', 'Huawei', 'Sony'];
+    return view('pages.brand', compact('brandsname'));
+})->name('brand');

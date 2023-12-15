@@ -27,14 +27,13 @@
 
   <body>
     <header>
-        <h1>Hello World</h1>
-        <h6>Made by {{ $name }}</h6>
-        <button><a href="{{ Route('about') }}">About {{ $name }}</a></button>
-        <hr>
-        <h6>See Collaborating Brands Here</h6>
-        <button><a href="{{Route('brand') }}">Brand</a></button>
+        <h1>Brands in Collaboration:</h1>
+        @foreach ($brandsname as $brand)
+            <p>{{ $brand }}</p>
+        @endforeach
+        <button><a href="{{Route('home') }}">Home</a></button>
     </header>
-        
+
     <main></main>
 
     <footer></footer>
