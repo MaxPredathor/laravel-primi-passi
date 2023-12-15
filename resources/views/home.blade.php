@@ -26,8 +26,11 @@
   </head>
 
   <body>
-    <header></header>
+    <header>
         <h1>Hello World</h1>
+        <h6>Made by {{ $name }}</h6>
+    </header>
+        
     <main></main>
 
     <footer></footer>
