@@ -29,7 +29,7 @@
     <header>
         <h1>Hello World</h1>
         <h6>Made by {{ $name }}</h6>
-        <button><a href="/about">About {{ $name }}</a></button>
+        <button><a href="{{ Route('about') }}">About {{ $name }}</a></button>
     </header>
         
     <main></main>

@@ -29,7 +29,7 @@
     <header>
         <h1>This is {{ $name }}'s Profile</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quam quibusdam veniam temporibus aliquid expedita, a reiciendis officiis, iste quas illo accusamus facere ab aspernatur necessitatibus consequatur nostrum eius dolor.</p>
-        <button><a href="/home">Home</a></button>
+        <button><a href="{{Route('home') }}">Home</a></button>
     </header>
 
     <main></main>
