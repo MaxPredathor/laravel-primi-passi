@@ -27,11 +27,11 @@
 
   <body>
     <header>
-        <h1>Hello World</h1>
-        <h6>Made by {{ $name }}</h6>
-        <button><a href="/about">About {{ $name }}</a></button>
+        <h1>This is {{ $name }}'s Profile</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quam quibusdam veniam temporibus aliquid expedita, a reiciendis officiis, iste quas illo accusamus facere ab aspernatur necessitatibus consequatur nostrum eius dolor.</p>
+        <button><a href="/home">Home</a></button>
     </header>
-        
+
     <main></main>
 
     <footer></footer>

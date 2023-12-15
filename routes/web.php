@@ -16,4 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $name = 'Max';
     return view('home', compact('name'));
-});
+})->name('home');
+
+Route::get('/about', function () {
+    $name = 'Max';
+    return view('pages.about', compact('name'));
+})->name('about');
